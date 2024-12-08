@@ -1,0 +1,78 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Header */
+.header {
+  background: #4CAF50;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+/* Navbar */
+.navbar {
+  background: #333;
+  color: white;
+  padding: 1rem 0;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Sections */
+section {
+  padding: 2rem 0;
+  border-bottom: 1px solid #ccc;
+}
+
+section h2 {
+  text-align: center;
+  color: #4CAF50;
+}
+
+.about p, .skills ul, .experience-item p, .projects .project-item p {
+  margin: 1rem 0;
+}
+
+.skills ul {
+  list-style: square inside;
+  padding: 0;
+}
+
+.experience-item, .project-item {
+  margin: 1rem 0;
+}
+
+/* Footer */
+.footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
